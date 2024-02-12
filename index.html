@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes Maker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>Notes Maker</h1>
+    <form id="notesForm" action="https://sheetdb.io/api/v1/1jhsqgm22uqqc" method="post">
+      <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="data[title]" required>
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description:</label>
+        <textarea id="description" name="data[description]" rows="4" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="data[id]" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="data[password]" required>
+        </div>
+      <div class="btn">
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

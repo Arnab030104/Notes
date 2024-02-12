@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Message</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1F2544;
+        }
+
+        .success-container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #474F7A;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 45%;
+        }
+
+        .success-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        button{
+            padding: 12px;
+            background-color: #81689D;
+            color: #e4dbed;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            width: 180px;
+        }
+        button:hover {
+            background-color: #b26795;
+        }
+    </style>
+</head>
+<body>
+    <div class="success-container">
+        <div class="success-icon">&#10003;</div>
+        <h2>Success!</h2>
+        <p>Your notes saved successfully.</p>
+        <button><a href="index.html">Return</a></button>
+    </div>
+</body>
+</html>
